@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #003366; /* Mavi tonunda arka plan */
+    border-bottom: 3px solid #005b96; /* Altına güzel bir vurgu */
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important; /* Markanın rengi */
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #b3c7e6 !important; /* Açık mavi tonunda linkler */
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* Üzerine gelindiğinde beyaz yap */
+  }
+  
+  .navbar-nav .nav-dropdown {
+    color: #b3c7e6 !important;
+  }
+  
+  .navbar-nav .nav-dropdown:hover {
+    color: #ffffff !important;
+  }
+  
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  
+  .btn-logout {
+    color: #ffffff !important; /* Çıkış butonu beyaz */
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .btn-logout:hover {
+    background-color: #005b96; /* Üzerine gelindiğinde mavi arka plan */
+    color: #ffffff !important;
+    border: 1px solid #005b96;
+  }
+  
